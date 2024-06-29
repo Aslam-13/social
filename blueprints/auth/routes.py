@@ -3,6 +3,8 @@ from flask_login import login_user, logout_user, login_required
 from werkzeug.security import generate_password_hash, check_password_hash
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+from bson.objectid import ObjectId
+
 # from .forms import LoginForm, RegisterForm
 from  models import User
 from blueprints.discussion.routes import discussions_blueprint
@@ -90,7 +92,9 @@ def register():
     login_user(user_obj)
     return redirect(url_for('discussion.discussions'))
 
-@auth_blueprint.route('/logout', methods=['GET' ])
-def logout(): 
+@auth_blueprint.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('auth.login'))
 
-    return render_template('register.html')
