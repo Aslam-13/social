@@ -3,14 +3,14 @@
 Hi 👋 Spyne.ai Engineer,
 
 I have completed this assignment in Flask and MongoDB.
-Well, At my current company, I was heavily working with multiple flask based projects. So, i thought let's build this in flask. Though, I have more experience working with Nodejs as well.
+Well, At my current company, I am heavily working on multiple flask based projects. So, i thought let's build this in flask. Though, I have more experience working with Nodejs as well.
 
 ## Demo of the assignment
-### Walkthrough
+### Walkthrough in 2 minutes:
  
- Video Link:
+ #### Video Link:
  https://drive.google.com/file/d/1wtnt4ibadTZn0TTqHcQU2BhFDNodexuV/view?usp=sharing
- 
+
 ## Instructions
 
 ### Clone the Project
