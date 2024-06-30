@@ -10,6 +10,7 @@
     <div class="container">
         <h1>{{ current_user.name }} &#128075; Discussions</h1>
         <a href="/discussions/create"><button class="btn">Add post</button></a>
+        <a href="{{ url_for('discussion.discussions') }}"><button class="btn">Discussions</button></a> 
         <input type="text" id="filter-input" class="filter-input" placeholder="Filter by title, content, or hashtags...">
     </div>
 
