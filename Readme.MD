@@ -11,6 +11,9 @@ Well, At my current company, I am heavily working on multiple flask based projec
  #### Video Link:
  https://drive.google.com/file/d/1wtnt4ibadTZn0TTqHcQU2BhFDNodexuV/view?usp=sharing
 
+## Documentation
+https://www.notion.so/Docs-952428ea4a3e4c8daffcf8741d550a6f
+
 ## Instructions
 
 ### Clone the Project
