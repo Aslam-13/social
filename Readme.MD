@@ -7,10 +7,10 @@ Well, At my current company, I was heavily working with multiple flask based pro
 
 ## Demo of the assignment
 ### Walkthrough
- <video width="600" controls>
-  <source src="./demo.mp4" type="video/mp4"> 
-</video>
-
+ 
+ Video Link:
+ https://drive.google.com/file/d/1wtnt4ibadTZn0TTqHcQU2BhFDNodexuV/view?usp=sharing
+ 
 ## Instructions
 
 ### Clone the Project
