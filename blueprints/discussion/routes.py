@@ -146,17 +146,19 @@ def follow():
         profile = request.form.get('profile').strip()
         user_id = str(request.form.get('userId')).strip() # Ensure the user ID is a string   
 
-    user = client.db.users.find_one({"_id": ObjectId(user_id)})
+    user = client.db.users.find_one({"_id": ObjectId(profile)})
+    print(user)
     if 'followings' in user:
-        if profile in user['followings']:
+        if user_id in user['followings']:
             return redirect(url_for('discussion.users'))
     res = client.db.users.update_one(
-        {"_id": ObjectId(user_id)},
+        {"_id": ObjectId(profile)},
         {   
-            "$addToSet": {"followings": profile},  # Add to likes array if not already present 
+            "$addToSet": {"followings": user_id},  # Add to likes array if not already present 
         },
         upsert=True  # Create the document if it doesn't exist
     )
+    print("this is the,", res)
     return redirect(url_for('discussion.users'))
 
 @discussions_blueprint.route('/delete_profile', methods=['POST']) 
