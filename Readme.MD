@@ -5,6 +5,7 @@ Hi 👋 Spyne.ai Engineer,
 I have completed this assignment in Flask and MongoDB.
 Well, At my current company, I am heavily working on multiple flask based projects. So, i thought let's build this in flask. Though, I have more experience working with Nodejs as well.
 
+I have covered all the features, if you have some feedback or anything else is left, Please let me know. Iam open to changes or any specific implementation
 ## Demo of the assignment
 ### Walkthrough in 2 minutes:
  
