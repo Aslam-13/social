@@ -14,6 +14,10 @@ Well, At my current company, I am heavily working on multiple flask based projec
 ## Documentation
 https://www.notion.so/Docs-952428ea4a3e4c8daffcf8741d550a6f
 
+
+## LLD Design
+https://lucid.app/lucidchart/4e829459-17d8-473a-81ab-a343ead556c3/edit?viewport_loc=-9909%2C-3177%2C6059%2C2938%2C.Q4MUjXso07N&invitationId=inv_b3763377-3424-4a8a-8e60-21594f0c0a57
+
 ## Instructions
 
 ### Clone the Project
